@@ -1,0 +1,41 @@
+$ag-icons-path: "../node_modules/ag-grid-community/src/styles/ag-theme-material/icons/";
+@import "../node_modules/ag-grid-community/src/styles/ag-grid.scss";
+@import "../node_modules/ag-grid-community/src/styles/ag-theme-balham-dark/sass/ag-theme-balham-dark.scss";
+
+.c-ag-greed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+
+    &__table-wrapper {
+        height: "100%";
+        width: "835px";
+    }
+
+    &__button {
+        background-color: #005880;
+        color: #fff;
+        margin: 1em;
+        padding: .5em;
+        outline: none;
+        border: none;
+    
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__selected-rows-output {
+        margin: 0 1em 1em; 
+    }
+
+    .ag-icon {
+        &-expanded,
+        &-contracted {
+            &:hover {
+                cursor: pointer;
+            } 
+        } 
+    }
+}
